@@ -2,7 +2,7 @@
 
 int main()
 {
-    float saldo = 1000.0; // Saldo inicial
+    float saldo = 1000.0;
     int opcao;
     float valor;
 
