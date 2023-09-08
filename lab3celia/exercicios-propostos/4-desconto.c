@@ -7,7 +7,7 @@ int main()
   printf("Digite o preço do produto: ");
   scanf("%f", &preco);
 
-  if (preco > 1000)
+  if (preco >= 1000)
   {
     precoComDesconto = preco - (preco * 0.10);
     printf("Preço com desconto:  %.2f mzn\n", precoComDesconto);
